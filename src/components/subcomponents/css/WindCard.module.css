@@ -1,0 +1,72 @@
+.card{
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card h3{
+  height: 20px;
+  width: 100%;
+  color: #B6B6B6;
+  font-size: 17px;
+}
+
+.wind_info_container{
+  height: 75px;
+  width: 56%;
+  padding-top: 15px;
+}
+
+.wind_info_container p{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+
+.compass{
+  height: 86px;
+  width: 86px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+}
+
+.arrow, .north, .east, .south, .west{
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);  
+}
+
+.arrow{
+  top: 50%;
+  left: 50%;
+  height: 30px;
+}
+
+.north{
+  top: 10%;
+  left: 50%;
+}
+
+.east{
+  top: 50%;
+  left: 90%;
+}
+
+.south{
+  top: 86%;
+  left: 50%;
+}
+
+.west{
+  top: 50%;
+  left: 12%;
+}

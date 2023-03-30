@@ -1,0 +1,5 @@
+.hour_cards_container{
+  padding: 25px 55px;
+  display: flex;
+  justify-content: space-between;
+}
