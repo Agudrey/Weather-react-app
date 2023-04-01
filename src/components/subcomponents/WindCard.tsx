@@ -8,7 +8,7 @@ function WindCard() {
 
       <div className={Styles.wind_info_container}>
         <p>North</p>
-        <p>12km/h</p>        
+        <p>12 km/h</p>        
       </div>
 
       <div className={Styles.compass}>

@@ -41,7 +41,9 @@
   position: absolute;
   right: auto;
   bottom: auto;
+  
   margin-right: -50%;
+
   transform: translate(-50%, -50%);  
 }
 
@@ -49,6 +51,12 @@
   top: 50%;
   left: 50%;
   height: 30px;
+  margin-top: -16%;
+  margin-left: -9.5%;
+
+
+  transform: rotate(180deg);
+  transition: 0.5s;
 }
 
 .north{

@@ -1,0 +1,57 @@
+.card{
+  height: 150px;
+  width: 250px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.card h3{
+  height: 20px;
+  width: 100%;
+  color: #B6B6B6;
+  font-size: 17px;
+}
+
+
+.icons_container{
+  height: 90px;
+  width: 40%;
+  padding: 15px 0px 0px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.sun_icon{
+  color: #FCB400;
+  height: 35px;
+  width: 35px;
+}
+
+
+.sunrise_info{
+  height: 90px;
+  width: 40%;
+  padding: 15px 0px 0px 0px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+
+.sunrise_info p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
